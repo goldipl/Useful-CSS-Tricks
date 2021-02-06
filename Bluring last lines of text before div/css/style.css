@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 60vh;
+    text-align: center;
+    margin: auto;
+}
+
+.redCont {
+    background-color: red;
+    height: 200px;
+    line-height: 200px;
+    font-size: 20px;
+}
+
+.redCont {
+    position: relative;
+}
+
+.redCont:before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(transparent, white);
+    left: 0;
+    top: -400px;
+    height: 400px;
+    width: 100%;
+    z-index: 99;
+}
