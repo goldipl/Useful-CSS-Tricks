@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.element {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.element .text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    color: black;
+}
