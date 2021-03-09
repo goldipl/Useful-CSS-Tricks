@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 60vh;
+    text-align: center;
+    margin: auto;
+}
+
+div {
+    background-color: red;
+    height: 200px;
+    line-height: 200px;
+    font-size: 20px;
+}
+
+div:hover {
+    opacity: 1;
+    animation: flash 1.5s;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
