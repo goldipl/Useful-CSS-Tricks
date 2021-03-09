@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 60vh;
+    text-align: center;
+    margin: auto;
+}
+
+h1:after {
+    content: '';
+    display: block;
+    border: 2px solid #FFD700;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+article {
+    padding-top: 5px;
+}
