@@ -9,13 +9,20 @@ body {
     margin: auto;
 }
 
+h1 {
+    position: relative;
+}
+
 h1:after {
-    content: '';
     display: block;
-    border: 2px solid #FFD700;
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 5px;
+    content: '';
+    width: 150px;
+    height: 3px;
+    background: #a01916;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 article {
