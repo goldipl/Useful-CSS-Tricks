@@ -1,0 +1,32 @@
+div {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(123, 221, 43, 0.85);
+    border-radius: 100%;
+}
+
+div::after {
+    animation: pulse-animation 2s infinite;
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+@keyframes pulse-animation {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(78, 139, 28, 0.85);
+    }
+    50% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+    }
+    100% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
